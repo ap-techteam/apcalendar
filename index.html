@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AP Calendar</title>
+
+<style>
+
+body{
+    height:100vh;
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#0066ff,#00c9a7);
+    font-family:tahoma;
+}
+
+
+.box{
+
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 30px #0005;
+
+}
+
+
+h1{
+
+    color:#0077aa;
+
+}
+
+
+button{
+
+    width:220px;
+    padding:15px;
+    margin:10px;
+
+    border:none;
+    border-radius:30px;
+
+    background:#0099cc;
+    color:white;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+}
+
+
+button:hover{
+
+    background:#00aa88;
+
+}
+
+</style>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="box">
+
+<h1>AP Portal</h1>
+
+<p>Select a website</p>
+
+
+<button onclick="openSite1()">
+gregorian calendar تقویم میلادی
+</button>
+
+
+<button onclick="openSite2()">
+shamsi calendar تقویم شمسی
+</button>
+
+
+</div>
+
+
+
+<script>
+
+
+function openSite1(){
+
+    window.location.href =
+    "https://ap-techteam.github.io/apcalendar/gregoriancalendar/";
+
+}
+
+
+
+function openSite2(){
+
+    window.location.href =
+    "https://ap-techteam.github.io/apcalendar/shamsicalendar/";
+
+}
+
+
+</script>
+
+
+</body>
+</html>
